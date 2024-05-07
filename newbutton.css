@@ -1,0 +1,195 @@
+body {
+	font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fef9e7;white-space:pre-line;
+}
+
+
+
+
+input[type='number'] {
+    width:260px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.additional {
+	text-align: center;
+    margin-top: -10px;
+    color: #666; /* 灰色文本颜色 */
+    font-size: 50px; /* 小字体大小 */
+}
+
+.additional-text {
+	text-align: center;
+    margin-top: -70px;
+    color: #000000; /* 灰色文本颜色 */
+    font-size: 40px; /* 小字体大小 */
+}
+
+.additional-text1 {
+    margin-top: -50px;
+    color: #666; /* 灰色文本颜色 */
+    font-size: 15px; /* 小字体大小 */
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes buttonScale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+rotate_button{
+	font-size: 18px;
+    background-color: #4CAF50; /* 绿色 */
+    color: white;
+    padding: 10px 20px;
+	border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3, transform 0.2s;
+
+}
+
+element-to-animate {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  transition: transform 0.5s; /* 添加过渡效果 */
+}
+
+.rotate_button:hover {
+  animation: rotateAnimation 1s infinite; /* 悬停时应用旋转动画 */
+}
+
+
+power-button {
+    width: 10px;
+    height: 1px;
+}
+
+.power-button:hover{
+    animation: buttonScale 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-button{
+    	font-size: 18px;
+        background-color: orange; 
+        color: white;
+        padding: 10px 20px;
+    	border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.new-button:hover{
+    animation: buttonScale 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-button:active {
+    animation: buttonScale 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    display: grid;
+	justify-content: center;
+	align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding:20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#sum {
+	width:200px;
+    font-size: 24px;
+	border-radius: 10px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+#output {
+   margin-top :-90px; 
+}
+
+
+.new1-button{
+		width: 97%;
+    	font-size: 18px;
+        background-color: orange; 
+        color: white;
+        padding: 10px 20px;
+    	border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.new1-button:hover{
+    animation: buttonScale 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new1-button:active {
+    animation: buttonScale 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

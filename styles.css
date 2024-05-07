@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+	white-space:pre-line;
+}
+
+@keyframes buttonScale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+button:hover{
+    animation: buttonScale 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    animation: buttonScale 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button{
+	font-size: 18px;
+    background-color: #4CAF50; /* 绿色 */
+    color: white;
+    padding: 10px 20px;
+	border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3, transform 0.2s;
+
+}
+
+  
+.image-container {
+    display: grid;
+	justify-content: center;
+	align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding:20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+
+
+.additional-text {
+    margin-top: 20px;
+    color: #666; /* 灰色文本颜色 */
+    font-size: 17px; /* 小字体大小 */
+}
+#system-time {
+    font-size: 24px;
+}
+#lunar-date {
+    font-size: 20px;
+}
+label[for="num1"] {
+    font-size: 20px; /* 设置字体大小为20像素，也可以根据需要调整大小 */
+}
+label[for="num2"] {
+    font-size: 20px; /* 设置字体大小为20像素，也可以根据需要调整大小 */
+}
+label[for="num3"] {
+    font-size: 20px; /* 设置字体大小为20像素，也可以根据需要调整大小 */
+}
+
+.guabutton{
+    font-size: 18px;
+    background-color: orange; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+	width: 90%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3, transform 0.2s;
+}
+
+.xiaobutton{
+    font-size: 18px;
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+	width: 90%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3, transform 0.2s;
+}
+
+
+
+#num1 {
+	width:200px;
+    font-size: 24px;
+	border-radius: 10px;
+}
+
+#num2 {
+	width:200px;
+    font-size: 24px;
+	border-radius: 10px;
+}
+#num3 {
+	width:200px;
+    font-size: 24px;
+	border-radius: 10px;
+}

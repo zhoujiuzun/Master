@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>易经六爻解卦</title>
+<link rel="stylesheet" href="newbutton.css">
+</head>
+<body>
+<div class="container">
+	<h1>易经六爻解卦</h1>
+	<div class="image-container"><button id="btn1" class="power-button" onclick="nothing()"><img src="yang.png"></button><br><button id="btn2" class="power-button" onclick="nothing()"><img src="yang.png"></button><br><button id="btn3" class="power-button" onclick="nothing()"><img src="yang.png"></button><br><button id="btn4" class="power-button" onclick="nothing()"><img src="yang.png"></button><br><button id="btn5" class="power-button" onclick="nothing()"><img src="yang.png"></button><br><button id="btn6" class="power-button" onclick="nothing()"><img src="yang.png"></button><br>
+	    </div>
+		<p class="additional-text1">
+		点击即可变化卦象，卦象所对应卦辞爻辞在下方。
+		</p>
+   <button class="new-button" onclick="goBack()">返回原页面</button>  <button class="new-button"  onclick="goToNewPage5()">教程</button><br>
+   <button class="new1-button" onclick="goToNewPage4()">易经六十四卦图鉴</button>  <br>
+   <button class="new1-button" onclick="goToNewPage6()">易经三百八十六爻辞图鉴</button>
+   <!-- Add more buttons as needed -->
+   <p class="additional">--------------------------</p>
+   <p class="additional-text">⚋断卦象⚋</p>
+   <input type="number" id="numberInput"  placeholder="请输入变爻数">    <button class="new-button"onclick="showText()">显示</button>
+   
+   
+   
+   
+   <div id="output"></div>
+   <p class="additional">--------------------------</p>
+   <p class="additional-text">⚋卦辞⚋</p>
+   <p id="result"></p >
+   <p class="additional">--------------------------</p>
+   <p class="additional-text">⚋爻辞⚋</p>
+   <p id="result1"></p >
+   <div id="sum"></div>
+   <audio id="audio" src="hit.mp3"></audio>
+   <audio id="audio1" src="hit_1.mp3"></audio>
+   
+   <!-- <div id="output"></div> -->
+</div>
+<script src="new.js"></script>
+</body>
+</html>
